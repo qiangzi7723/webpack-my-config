@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
-      "dev":"webpack-dev-server --open --hot"
+  "scripts": {
+    "dev": "webpack-dev-server --hot"
   },
   "devDependencies": {
+    "css-loader": "^0.28.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3"
   }
 }
